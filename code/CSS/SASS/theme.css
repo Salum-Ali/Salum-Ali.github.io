@@ -1,0 +1,28 @@
+html, body {
+  background-color: #000;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Exo 2", sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
+}
+h1.SiteHeader, h2.SiteHeader, h3.SiteHeader, h4.SiteHeader, h5.SiteHeader, h6.SiteHeader {
+  font-family: "Cinzel", serif;
+}
+
+p {
+  font-size: x-large;
+  padding: 1em;
+  text-align: left;
+}
+
+/*# sourceMappingURL=theme.css.map */

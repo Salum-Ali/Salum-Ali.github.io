@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    SalumAli.github.io Landing Page
+    SalumAli.github.io - Landing Page
   </title>
   <!-- (technically speaking) CSS Styles -->
   <link rel="stylesheet" href="code/CSS/SASS/theme.css">
@@ -29,71 +29,81 @@
 </head>
 
 <body>
-  <header>
-    <section>
-      <h1 class="SiteHeader">SalumAli.Github.io</h1>
-      <br>
-      <h3>Project Hub Website for Salum Ali Muhammed</h3>
-    </section>
-    <nav>
-
-    </nav>
-  </header>
-  <main>
-    <asside>
-      <nav>
-
-      </nav>
-    </asside>
-    <section>
-      <div>
+  <div class="MainGrid" id="PageWrap">
+    <header class="SubGrid MainItem" id="HeaderWrap">
+      <a href="#">
+        Link to Page Bottom
+      </a>
+      <hr class="QuarterWide">
+      <section>
+        <h1 class="SiteHeader">
+          SalumAli.Github.io
+        </h1>
+        <br>
         <h3>
-          page title
+          Project Hub Website for Salum Ali Muhammed - Creative Semi-Intermediate
         </h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum ullam repellat perspiciatis sint quod perferendis maiores veritatis laboriosam, velit, ducimus eligendi. Iure placeat amet quis cum reprehenderit, quasi consectetur voluptate.
-        </p>
-        <div>
-          <h6>
+      </section>
+      <hr class="HalfWide">
+      <nav>
+        <ul>
 
-          </h6>
-          <p>
-
-          </p>
+        </ul>
+        <li>
+          TEST
+        </li>
+        <li>
+          TEST
+        </li>
+        <li>
+          TEST
+        </li>
+        <li>
+          TEST
+        </li>
+        <li>
+          TEST
+        </li>
+      </nav>
+      <hr class="TQW">
+    </header>
+  
+    <div class="SubGrid MainItem" id="BodyWrap">
+      <div class="SubItem" id="PageBlurb">
+  
+        <div id="BlurbSection">
         </div>
       </div>
-    </section>
+      <aside class="SubItem" id="FeedNav">
+        <a class="twitter-timeline" data-height="720" data-theme="dark" href="https://twitter.com/samrs15?ref_src=twsrc%5Etfw">Tweets by samrs15</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </aside>
+      <main class="SubItem" id="RouterContent">
+        <div id="CurrentRout">
+          <p>
+            Your Current Route:<br>
+            {{location.path()}}
+          </p>
+          <div id="JumpNav">
+            <div class="TEST">
 
-  </main>
-  <footer>
-    
-  </footer>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div  class="SubItem" id="HorAd">
+        <app-adhorizontal></app-adhorizontal>
+      </div>
+    </div>
+  
+    <footer class="SubGrid MainItem" id="FooterWrap">
+      <hr class="QTW">
+      <app-motto></app-motto>
+      <hr class="HalfWide">
+      <app-footnav></app-footnav>
+      <hr class="QuarterWide">
+      <app-topjump></app-topjump>
+    </footer>
+  </div>
 </body>
 
 </html>
-
-<!-- <!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>
-    Portfolio of Salum Muhammed
-  </title>
-  <base href="/">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <link rel="icon" type="image/x-icon" href="assets/IMG/ICO/FAV/_DeltaTech-Favicon_16.ico"> -->
-
-<!-- web fonts used: -->
-<!-- Google Fonts -->
-<!-- <link href="https://fonts.googleapis.com/css?family=Material+Icons|Cinzel|Cinzel+Decorative|Exo+2|Montserrat" rel="stylesheet">
-</head>
-
-<body>
-  <app-root></app-root>
-<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="scripts.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
-
-</html> -->

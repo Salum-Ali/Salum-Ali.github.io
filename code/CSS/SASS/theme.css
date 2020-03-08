@@ -1,3 +1,7 @@
+* {
+  color: white;
+}
+
 html, body {
   background-color: #000;
   text-align: center;
@@ -5,9 +9,20 @@ html, body {
   padding: 0px;
   font-family: "Exo 2", sans-serif;
 }
-
-p, h1, h2, h3, h4, h5, h6 {
-  color: white;
+html a, body a {
+  color: yellow;
+}
+html hr, body hr {
+  color: white !important;
+}
+html hr.QuarterWide, body hr.QuarterWide {
+  width: 25% !important;
+}
+html hr.HalfWide, body hr.HalfWide {
+  width: 50% !important;
+}
+html hr.TQW, body hr.TQW {
+  width: 75%;
 }
 
 h1, h2, h3, h4, h5, h6 {

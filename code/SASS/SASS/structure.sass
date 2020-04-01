@@ -1,48 +1,68 @@
-.MainGrid, #PageWrap
-	background-color: rgba($color: #000000, $alpha: 0.675)
-	padding: 2em
-	margin: 0px
-	// ^Is the above even needed? probably not ^
-	// height: 100%
-	// width: 100%
-	display: grid
-	grid-template-columns: repeat(12, 1fr)
-	grid-row-gap: 0em
-	grid-auto-rows: auto
-	.MainItem
-	#HeaderWrap
-		grid-column: 1/13
-	#BodyWrap
-		background-color: rgba($color: #000000, $alpha: 0.5)
+// Variable Names
+// $some-var-name: 100px;
+*
+	vertical-align: middle !important
+body, html
+	height: 100%
+	width: 100%
+.MainGrid
+	&#PageWrap
+		background-color: rgba($color: #000000, $alpha: 0.675)
+		height: 100vh
+		// padding: 2em
+		// margin: 0px
+// 	// ^Is the above even needed? probably not ^
+		.MainImage
+		height: 100vh
+			margin: auto
+			vertical-align: middle !important
+.rounded
+	height: 400px
+	width: 400px
+	border-radius: 50%
+	object-fit: cover
+	vertical-align: middle
+	border: 0.5em dashed white
+	vertical-align: middle !important
+			// 	height: $some-var-name
+			// 	width: $some-var-name
+			// 	border-radius: 50%
+			// 	object-fit: cover
+			// 	vertical-align: middle
+			// 	border: 0.5em dashed white
+// 	#HeaderWrap
+// 		grid-column: 1/13
+// 	#BodyWrap
+// 		background-color: rgba($color: #000000, $alpha: 0.5)
 
-		padding: 0.25em
-		grid-column: 2/12
-		border: 0.5em ridge white
-		display: grid
-		// max-height: 1080px
-		grid-template-columns: repeat(10, 1fr)
-		.SubItem
-			margin: 0.5em
-			// ^ Keep? TBD ^
-		#PageBlurb
-			grid-column: 1/11
-			border: 0.5em ridge white
-		#FeedNav
-			max-height: 100%
-			grid-column: 1/4
-			border: 0.5em ridge white
-		#RouterContent
-			max-height: 100%
-			grid-column: 4/11
-			border: 0.5em ridge white
-		#HorAd
-			grid-column: 1/11
-			border: 0.5em ridge white
-	#FooterWrap
-		grid-column: 3/11
-		// border: 0.5em ridge white
-		// ^ NTS: Above border was to proove a concept ^
-	// hr
+// 		padding: 0.25em
+// 		grid-column: 2/12
+// 		border: 0.5em ridge white
+// 		display: grid
+// 		// max-height: 1080px
+// 		grid-template-columns: repeat(10, 1fr)
+// 		.SubItem
+// 			margin: 0.5em
+// 			// ^ Keep? TBD ^
+// 		#PageBlurb
+// 			grid-column: 1/11
+// 			border: 0.5em ridge white
+// 		#FeedNav
+// 			max-height: 100%
+// 			grid-column: 1/4
+// 			border: 0.5em ridge white
+// 		#RouterContent
+// 			max-height: 100%
+// 			grid-column: 4/11
+// 			border: 0.5em ridge white
+// 		#HorAd
+// 			grid-column: 1/11
+// 			border: 0.5em ridge white
+// 	#FooterWrap
+// 		grid-column: 3/11
+// 		// border: 0.5em ridge white
+// 		// ^ NTS: Above border was to proove a concept ^
+// 	// hr
 
 // Generalised Content
 
@@ -52,47 +72,47 @@
 
 
 
-// ####################################################
-// M E D I A  Q U E R I E S
-// ####################################################
+// // ####################################################
+// // M E D I A  Q U E R I E S
+// // ####################################################
 
-// ::::::::::::::::::::::::::::::::::::::::::::::::::::
-// Bootstrap 4 breakpoints
+// // ::::::::::::::::::::::::::::::::::::::::::::::::::::
+// // Bootstrap 4 breakpoints
 
-/* Small devices (landscape phones, 576px and below) */
-// @media (max-width: 576px)
-@media only screen and (max-width: 560px)
-	#PageWrap
-		margin: 0em
-		#HeaderWrap
-		#BodyWrap
-			grid-column: 1/13
-			// grid-template-columns: repeat(12, 1fr)
+// /* Small devices (landscape phones, 576px and below) */
+// // @media (max-width: 576px)
+// @media only screen and (max-width: 560px)
+// 	#PageWrap
+// 		margin: 0em
+// 		#HeaderWrap
+// 		#BodyWrap
+// 			grid-column: 1/13
+// 			// grid-template-columns: repeat(12, 1fr)
 
-/* Medium devices (tablets, 768px and below) The navbar toggle appears at this breakpoint */
-@media (max-width: 768px)
-
-
-/* Large devices (desktops, 992px and below) */
-@media (max-width: 992px)
+// /* Medium devices (tablets, 768px and below) The navbar toggle appears at this breakpoint */
+// @media (max-width: 768px)
 
 
-/* Extra large devices (large desktops, 1320px and below) */
-// @media (max-width: 1200px)
-@media only screen and (max-width: 1320px)
-	hr
-		display: none
-	#FeedNav
-		display: none
-	#RouterContent
-		max-height: 100%
-		grid-column: 1/11 !important
-		border: 0.5em ridge white
-// ^ Removing FeedNav on tablet-like smaller screens ^
+// /* Large devices (desktops, 992px and below) */
+// @media (max-width: 992px)
 
-// ::::::::::::::::::::::::::::::::::::::::::::::::::::
-// Custom media queries
 
-/* Set width to make card deck cards 100% width */
-@media (max-width: 950px)
+// /* Extra large devices (large desktops, 1320px and below) */
+// // @media (max-width: 1200px)
+// @media only screen and (max-width: 1320px)
+// 	hr
+// 		display: none
+// 	#FeedNav
+// 		display: none
+// 	#RouterContent
+// 		max-height: 100%
+// 		grid-column: 1/11 !important
+// 		border: 0.5em ridge white
+// // ^ Removing FeedNav on tablet-like smaller screens ^
+
+// // ::::::::::::::::::::::::::::::::::::::::::::::::::::
+// // Custom media queries
+
+// /* Set width to make card deck cards 100% width */
+// @media (max-width: 950px)
 

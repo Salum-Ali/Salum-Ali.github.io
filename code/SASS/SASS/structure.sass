@@ -1,7 +1,7 @@
 // Variable Names
 // $some-var-name: 100px;
 *
-	vertical-align: middle !important
+	// vertical-align: middle !important
 body, html
 	background-position: center center
 	background-repeat: no-repeat
@@ -14,19 +14,25 @@ body, html
 	&#PageWrap
 		background-color: rgba($color: #000000, $alpha: 0.675)
 
-		height: 100vh
+		height: 100%
 		// padding: 2em
 		// margin: 0px
 // 	// ^Is the above even needed? probably not ^
 		.MainImage
 		height: 100vh
-			margin: auto
-			vertical-align: middle !important
+		width: 100vh
+		// padding: 500px !important
+		// vertical-align: middle !important
 .rounded
-	height: 400px
-	width: 400px
+	position: absolute
+	top: 30%
+	left: 40%
+	display: block
+	margin: auto
+	height: 300px
+	width: 300px
 	border-radius: 50%
 	object-fit: cover
-	vertical-align: middle
+	// vertical-align: middle
 	border: 0.5em dashed white
-	vertical-align: middle !important
+	// vertical-align: middle !important

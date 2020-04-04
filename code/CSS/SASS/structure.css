@@ -1,7 +1,3 @@
-* {
-  vertical-align: middle !important;
-}
-
 body, html {
   background-position: center center;
   background-repeat: no-repeat;
@@ -14,17 +10,20 @@ body, html {
 
 .MainGrid#PageWrap {
   background-color: rgba(0, 0, 0, 0.675);
-  height: 100vh;
+  height: 100%;
 }
 
 .rounded {
-  height: 400px;
-  width: 400px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   object-fit: cover;
-  vertical-align: middle;
   border: 0.5em dashed white;
-  vertical-align: middle !important;
 }
 
 /*# sourceMappingURL=structure.css.map */

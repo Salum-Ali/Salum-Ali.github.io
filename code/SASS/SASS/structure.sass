@@ -10,11 +10,12 @@ body, html
 	background-attachment: fixed
 	height: 100%
 	width: 100%
-.MainGrid
+.MainGrid, div
+	position: relative
+	height: 100%
+	width: 100%
 	&#PageWrap
-		background-color: rgba($color: #000000, $alpha: 0.675)
-
-		height: 100%
+	height: 100%
 		// padding: 2em
 		// margin: 0px
 // 	// ^Is the above even needed? probably not ^
@@ -25,14 +26,17 @@ body, html
 		// vertical-align: middle !important
 .rounded
 	position: absolute
-	top: 30%
-	left: 40%
-	display: block
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
 	margin: auto
-	height: 300px
-	width: 300px
+	// display: block
+	// margin: auto
+	height: 200px
+	width: 200px
 	border-radius: 50%
 	object-fit: cover
 	// vertical-align: middle
 	border: 0.5em dashed white
-	// vertical-align: middle !important
+	// // vertical-align: middle !important

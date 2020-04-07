@@ -8,19 +8,21 @@ body, html {
   width: 100%;
 }
 
-.MainGrid#PageWrap {
-  background-color: rgba(0, 0, 0, 0.675);
+.MainGrid, div {
+  position: relative;
+  height: 100%;
+  width: 100%;
   height: 100%;
 }
-
 .rounded {
   position: absolute;
-  top: 30%;
-  left: 40%;
-  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   margin: auto;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   object-fit: cover;
   border: 0.5em dashed white;

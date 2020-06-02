@@ -1,17 +1,46 @@
-/* Error: Expected digit.
- *   ,
- * 7 |     background-image: ./asset/IMG/LGO/DeltaStudios_TestLogo_A_0.5_R4P2.jpg
- *   |                        ^
- *   '
- *   code\sass\sass\structure.sass 7:21  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected digit.\a   \2577 \a 7 \2502      background-image: ./asset/IMG/LGO/DeltaStudios_TestLogo_A_0.5_R4P2.jpg\d\a   \2502                         ^\a   \2575 \a   code\\sass\\sass\\structure.sass 7:21  root stylesheet";
+body, html {
+  background-image: url("./asset/IMG/LGO/DeltaStudios_TestLogo_A_0.5_R4P2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
 }
+body #PageWrap, body .CenterPic, body .Continer, html #PageWrap, html .CenterPic, html .Continer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+body #PageWrap h1, body #PageWrap h2, body .CenterPic h1, body .CenterPic h2, body .Continer h1, body .Continer h2, html #PageWrap h1, html #PageWrap h2, html .CenterPic h1, html .CenterPic h2, html .Continer h1, html .Continer h2 {
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1;
+  position: absolute;
+}
+body #PageWrap h1#MyName, body #PageWrap h2#MyName, body .CenterPic h1#MyName, body .CenterPic h2#MyName, body .Continer h1#MyName, body .Continer h2#MyName, html #PageWrap h1#MyName, html #PageWrap h2#MyName, html .CenterPic h1#MyName, html .CenterPic h2#MyName, html .Continer h1#MyName, html .Continer h2#MyName {
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body #PageWrap h1#MyTitle, body #PageWrap h2#MyTitle, body .CenterPic h1#MyTitle, body .CenterPic h2#MyTitle, body .Continer h1#MyTitle, body .Continer h2#MyTitle, html #PageWrap h1#MyTitle, html #PageWrap h2#MyTitle, html .CenterPic h1#MyTitle, html .CenterPic h2#MyTitle, html .Continer h1#MyTitle, html .Continer h2#MyTitle {
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body #PageWrap a, body .CenterPic a, body .Continer a, html #PageWrap a, html .CenterPic a, html .Continer a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body #PageWrap a .rounded, body .CenterPic a .rounded, body .Continer a .rounded, html #PageWrap a .rounded, html .CenterPic a .rounded, html .Continer a .rounded {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.5em dashed white;
+}
+
+/*# sourceMappingURL=structure.css.map */

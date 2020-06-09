@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../sass/sass/structure.sass"],"names":[],"mappings":"AAIA;EACC;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACC;EACA;EACA;;AAIA;EACC;EACA;EACA;;AACA;EACC;EACA;EACA;;AACD;EACC;EACA;EACA;;AAEF;EACC;EACA;EACA;EACA;;AAGA;EACC;EAGA;EACA;EACA;EACA;EAEA","file":"structure.css"}
+{"version":3,"sourceRoot":"","sources":["../../sass/sass/structure.sass"],"names":[],"mappings":"AAEA;EACC;EACA;EACA;EACA;EACA;EAIA;EAGA;;AACA;EACC;;AAID;EACC;;AAYD;EACC","file":"structure.css"}

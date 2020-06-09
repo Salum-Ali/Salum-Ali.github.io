@@ -1,35 +1,105 @@
-// Omnipotence
+// // Omnipotence
 *
+	// margin: 0
+	// padding: 0
 	color: white
-	// General Themes
-html, body
-	background-color: #000
+body, html
+	background-image: url(/asset/IMG/LGO/DeltaStudiosTestLogo.jpg)
+	background-color: #000000
 	text-align: center
-	margin: 0px
-	padding: 0px
+	background-position: center center
+	background-repeat: no-repeat
+	background-size: cover
+	background-attachment: fixed
+	// ^ All of the Above is basically just for a cover photo ^
 	font-family: 'Exo 2', sans-serif
+	margin: 0
+	padding: 0
+	// #PageWrap
 	a
 		color: yellow
+		// position: absolute
+		// top: 50%
+		// left: 50%
+		// transform: translate(-50%, -50%)
+		// right: 0
+		// bottom: 0
+		.rounded
+			// margin: auto
+			// display: block
+			// margin: auto
+			height: 200px
+			width: 200px
+			border-radius: 50%
+			object-fit: cover
+			// vertical-align: middle
+			border: 0.5em dashed white
+			// // vertical-align: middle !important
 	hr
-		color: white !important
+		color: white
 		&.QuarterWide
-			width: 25% !important
+			width: 25%
 		&.HalfWide
-			width: 50% !important
+			width: 50%
 		&.TQW
 			width: 75%
 // Elemental Themes
 	// Text Themes
+	h1, h2, h3, h4, h5, h6
+		// margin: 0.5em
+		font-family: 'Cinzel Decorative', cursive
+		font-weight: 400
+		&.SiteHeader
+			font-family: 'Cinzel', serif
 h1, h2, h3, h4, h5, h6
 	margin: 0.5em
 	font-family: 'Cinzel Decorative', cursive
 	font-weight: 400
-	&.SiteHeader
-		font-family: 'Cinzel', serif
 p
+	// color: green
 	font-size: x-large
 	padding: 1em
-	text-align: left
-// ul
-// 	li
-// ^ NTS: fill this in later ^
+	text-align: center
+ul
+	list-style-type: none
+	margin: 0
+	padding: 0
+nav
+	// align-self: center
+	// background-color: #000000
+	// display: block
+	// overflow: hidden
+	// padding: 0.5em 1em 0.5em 1em
+	&#HotLink
+		// position: fixed
+		// // z-index: -1
+		// top: 0
+		// width: 100%
+	&#SocioLinks
+		// position: relative
+		// // z-index: -1
+		// bottom: 0
+		// width: 100%
+	ul
+		li
+			display: inline-block
+			overflow: hidden
+			background-color: rgba(100, 150, 200, 1)
+			a
+				font-size: x-large
+				display: block
+				text-decoration: none
+				color: rgba(0, 0, 0, 1)
+				display: block
+				// padding: 0.5em
+				background-color: rgba(255, 255, 255, 0.75)
+				&:hover
+					color: rgba(255, 0, 0, 1)
+					text-decoration: underline
+	// ul
+	// 	li
+	// ^ NTS: fill this in later ^
+	// nav
+	// 	ul
+	// 		margin: 0
+	// 		padding: 0

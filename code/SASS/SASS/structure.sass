@@ -1,52 +1,35 @@
 // Variable Names
 // $some-var-name: 100px;
-*
-	// vertical-align: middle !important
-body, html
-	background-image: url(/asset/IMG/LGO/DeltaStudiosTestLogo.jpg)
-	background-position: center center
-	background-repeat: no-repeat
-	background-size: cover
-	text-align: center
-	background-attachment: fixed
-	height: 100%
-	width: 100%
-	// ^ All of the Above is basically just for a cover photo ^
-	#PageWrap, .CenterPic, .Continer
-		position: relative
-		height: 100%
-		width: 100%
-		// padding: 2em
-		// margin: 0px
-		// ^Is the above even needed? probably not ^
-		h1, h2
-			background-color: rgba(0, 0, 0, 0.75)
-			z-index: 1
-			position: absolute
-			&#MyName
-				top: 25%
-				left: 50%
-				transform: translate(-50%, -50%)
-			&#MyTitle
-				top: 75%
-				left: 50%
-				transform: translate(-50%, -50%)
-
-		a
-			position: absolute
-			top: 50%
-			left: 50%
-			transform: translate(-50%, -50%)
-			// right: 0
-			// bottom: 0
-			.rounded
-				margin: auto
-				// display: block
-				// margin: auto
-				height: 200px
-				width: 200px
-				border-radius: 50%
-				object-fit: cover
-				// vertical-align: middle
-				border: 0.5em dashed white
-				// // vertical-align: middle !important
+#PageWrap
+	margin: 0
+	padding: 0
+	height: 100vh
+	display: grid
+	grid-template-columns: repeat(3, 1fr)
+	// grid-template-rows: repeat(3, 1fr)
+	// grid-row-gap: 0em
+	// grid-column-gap: 0em
+	grid-template-rows: auto
+	// margin: 0
+	// padding: 0
+	background-color: rgba(0, 0, 125, 0.5)
+	#HeadWrap
+		grid-column: 1/4
+		// grid-row: 1/2
+		// grid-row: 1
+		// border: 10px solid green
+	#MainWrap
+		grid-column: 1/4
+		// display: grid
+		// grid-template-row: repeat(2, 1fr)
+		// #MeWrap
+		// 	grid-row: 1/1
+		// 	#PortRait
+		// 		display: inline-block
+		// 	#TagLine
+		// 		display: inline-block
+		// 		justify-content: center
+		// #BlurbWrap
+		// 	grid-row: 2/2
+	#FootWrap
+		grid-column: 1/4

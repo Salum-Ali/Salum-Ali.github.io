@@ -1,0 +1,31 @@
+#PageWrap {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#PageWrap #HeadWrap {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+}
+
+#PageWrap #MainWrap {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+}
+
+#PageWrap #FootWrap {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+}
+/*# sourceMappingURL=structure.css.map */

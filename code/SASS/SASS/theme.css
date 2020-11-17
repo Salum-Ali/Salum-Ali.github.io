@@ -1,0 +1,84 @@
+* {
+  color: white;
+}
+
+body, html {
+  background-image: url(/asset/IMG/LGO/DeltaStudiosTestLogo.jpg);
+  background-color: #000000;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Exo 2', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body a, html a {
+  color: yellow;
+}
+
+body a .rounded, html a .rounded {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 0.5em dashed white;
+}
+
+body hr, html hr {
+  color: white;
+}
+
+body hr.QuarterWide, html hr.QuarterWide {
+  width: 25%;
+}
+
+body hr.HalfWide, html hr.HalfWide {
+  width: 50%;
+}
+
+body hr.TQW, html hr.TQW {
+  width: 75%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 400;
+}
+
+p {
+  font-size: x-large;
+  padding: 1em;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  overflow: hidden;
+  background-color: #6496c8;
+}
+
+nav ul li a {
+  font-size: x-large;
+  display: block;
+  text-decoration: none;
+  color: black;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+nav ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=theme.css.map */

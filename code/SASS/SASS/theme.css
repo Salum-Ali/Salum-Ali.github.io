@@ -3,7 +3,7 @@
 }
 
 body, html {
-  background-image: url(/asset/IMG/LGO/DeltaStudiosTestLogo.jpg);
+  background-image: url(/asset/IMG/LGO/DS_NL.png);
   background-color: #000000;
   text-align: center;
   background-position: center center;
@@ -60,6 +60,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+nav#SocioLinks {
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 nav ul li {
